@@ -108,7 +108,7 @@ function getSelectValue() {
 function Reset() {
     var dropDown = document.getElementById("opt");
     dropDown.selectedIndex = 0;
-    dropDown = window.location.reload()
+    dropDown = window.location.reload(true);
 }
 
 
