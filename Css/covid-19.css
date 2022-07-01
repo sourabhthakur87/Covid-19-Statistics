@@ -71,10 +71,10 @@ span{
 }
 
 #opt{
-    /* width: 100px; */
-    padding: 8px 16px;
+    width: 230px;
+    padding: 16px 32px;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 150px;
     border-radius: 20px;
     background: transparent;
     background-color: white;
