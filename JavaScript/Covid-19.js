@@ -105,10 +105,21 @@ function getSelectValue() {
     }
 }
 
-function Reset() {
-    var dropDown = document.getElementById("opt");
-    dropDown.selectedIndex = 0;
-    dropDown = window.location.reload(true);
+// function Reset() {
+//     var dropDown = document.getElementById("opt");
+//     dropDown.selectedIndex = 0;
+//     dropDown = window.location.reload(true);
+// }
+
+function rst() {
+
+    var cn=document.getElementById('country')
+    cn.textContent=" "
+
+    let f = document.getElementsByClassName('dv1');
+    for (let i = 0; i < f.length; i++) {
+        f[i].textContent = ''
+    }
 }
 
 
