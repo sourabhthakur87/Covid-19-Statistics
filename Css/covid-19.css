@@ -1,11 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #sec1{
     display: flex;
 }
 
 #sec1 img{
-    margin: 50px;
-    width: 400px;
-    height: 450px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 558px;
     border-radius: 20px;
 }
 
@@ -52,15 +59,17 @@ background-color: rgb(234, 245, 255);
     font-size: 20px;
     font-weight: bold;
 }
-span{
+.s1 ,.s2 ,.s3 ,.s4{
     font-size: 20px;
     font-weight: bold;
     color: rgb(9, 99, 129);
 }
-
+#today{
+    color: rgb(230, 60, 63);
+}
 .s1{
     font-size: 30px;
-    color: purple;
+    color: rgb(230, 61, 63);
 }
 .s2,#btx2,#btx5{
     color: rgb(228, 78, 78);
@@ -80,11 +89,21 @@ span{
     width: 230px;
     padding: 16px 32px;
     margin-top: 15px;
-    margin-left: 150px;
+    margin-left: 130px;
     border-radius: 20px;
     background: transparent;
     background-color: white;
     border:1px solid gray;
+}
+
+#link{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(234, 20, 20);
+    text-decoration: none;
+}
+#link a{
+    text-decoration: none;
 }
 
 
