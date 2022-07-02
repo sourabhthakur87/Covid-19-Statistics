@@ -41,11 +41,11 @@ function getSelectValue() {
 
             console.log(tc);
             pre1.innerHTML = `<span class="s1">Global Situation: </span>`;
-            pre2.innerHTML = `<span class="s2">${tc}</span> \n\n\n<span class="s2"> Total Cases</span>`;
-            pre3.innerHTML = `<span class="s3">${td}</span>\n\n\n<span class="s3">Total Death</span>`;
-            pre4.innerHTML = `<span id="s4">${t}</span>\n\n\n<span class="s4">Date</span>`;
-            pre5.innerHTML = `<span id="s4">${nc}</span>\n\n\n<span class="s4">New Cases</span>`;
-            pre6.innerHTML = `<span id="s4">${nd}</span>\n\n\n<span class="s4">New Death</span>`;
+            pre2.innerHTML = `<span class="s2">${tc}</span>`;
+            pre3.innerHTML = `<span class="s3">${td}</span>`;
+            pre4.innerHTML = `<span class="s4">${t}</span>`;
+            pre5.innerHTML = `<span class="s4">${nc}</span>`;
+            pre6.innerHTML = `<span class="s2">${nd}</span>`;
 
             document.getElementById("country").appendChild(pre1);
             document.getElementById("d1").appendChild(pre4);
@@ -89,11 +89,11 @@ function getSelectValue() {
 
             console.log(tc);
             pre1.innerHTML = `<span class="s1">${c}</span> <span class="s1">Situation: </span>`;
-            pre2.innerHTML = `<span class="s2">${tc}</span> \n\n\n<span class="s2"> Total Cases</span>`;
-            pre3.innerHTML = `<span class="s3">${td}</span>\n\n\n<span class="s3">Total Death</span>`;
-            pre4.innerHTML = `<span id="s4">${t}</span>\n\n\n<span class="s4">Date</span>`;
-            pre5.innerHTML = `<span id="s4">${nc}</span>\n\n\n<span class="s4">New Cases</span>`;
-            pre6.innerHTML = `<span id="s4">${nd}</span>\n\n\n<span class="s4">New Death</span>`;
+            pre2.innerHTML = `<span class="s2">${tc}</span>`;
+            pre3.innerHTML = `<span class="s3">${td}</span>`;
+            pre4.innerHTML = `<span class="s4">${t}</span>`;
+            pre5.innerHTML = `<span class="s4">${nc}</span>`;
+            pre6.innerHTML = `<span class="s2">${nd}</span>`;
 
             document.getElementById("country").appendChild(pre1);
             document.getElementById("d1").appendChild(pre4);
@@ -113,8 +113,8 @@ function getSelectValue() {
 
 function rst() {
 
-    var cn=document.getElementById('country')
-    cn.textContent=" "
+    var cn = document.getElementById('country')
+    cn.textContent = " "
 
     let f = document.getElementsByClassName('dv1');
     for (let i = 0; i < f.length; i++) {

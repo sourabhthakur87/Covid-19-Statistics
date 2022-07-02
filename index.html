@@ -16,31 +16,46 @@
 
         <main id="mn">
             <form action="" method="get">
-                    <select name="ff" id="opt" onchange="getSelectValue();rst();">
-                        <option value="" disabled selected>Select Location</option>
-                        <option value="Global" >Global</option>
-                        <option value="77">India</option>
-                        <option value="131">Pakistan</option>
-                        <option value="165">Sri Lanka</option>
-                        <option value="36">China</option>
-                    </select>
-                </form>
+                <select name="ff" id="opt" onchange="getSelectValue();rst();">
+                    <option value="" disabled selected>Select Location</option>
+                    <option value="Global">Global</option>
+                    <option value="77">India</option>
+                    <option value="131">Pakistan</option>
+                    <option value="165">Sri Lanka</option>
+                    <option value="36">China</option>
+                </select>
+            </form>
             <h2 id="country"></h2>
             <div id="flex">
-                <div id="d1" class="dv1"></div>
-                <div id="d2" class="dv1"></div>
-                <div id="d3" class="dv1"></div>
+                <div id="d11" class="dd1">
+                    <div id="d1" class="dv1"></div>
+                    <div id="btx1" class="boxtext">Date</div>
+                </div>
+                <div id="d12" class="dd1">
+                    <div id="d2" class="dv1"></div>
+                    <div id="btx2" class="boxtext">Total Cases</div>
+                </div>
+                <div id="d13" class="dd1">
+                    <div id="d3" class="dv1"></div>
+                    <div id="btx3" class="boxtext">Total Death</div>
+                </div>
             </div>
             <h2 id="country">Today's Situation:</h2>
             <div id="flex2">
-                <div id="d4" class="dv1"></div>
-                <div id="d5" class="dv1"></div>
+                <div id="d14" class="dd1">
+                    <div id="d4" class="dv1"></div>
+                    <div id="btx4" class="boxtext">New Cases</div>
+                </div>
+                <div id="d15" class="dd1">
+                    <div id="d5" class="dv1"></div>
+                    <div id="btx5" class="boxtext">New Death</div>
+                </div>
             </div>
             <!-- <input type="button" id="btnReset" value="Refresh" onclick="Reset();" /> -->
             <!-- <p>Disclaimer: Reset before changing the locaton</p> -->
         </main>
     </section>
-    
+
     <script src="./JavaScript/Covid-19.js"></script>
 </body>
 
