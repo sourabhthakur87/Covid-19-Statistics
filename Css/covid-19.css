@@ -154,9 +154,10 @@
     }
     #country{
         width: 100%;
+        font-size: 25px;
     }
     #sec1 #mn #opt{
-        margin-left: 110px;
+        margin-left: 90px;
     }
     #sec1 #mn #link{
         width: 100%;
