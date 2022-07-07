@@ -1,3 +1,4 @@
+
 .flex {
     display: flex;
 }
@@ -9,9 +10,10 @@
     width: 500px;
     height: 558px;
     border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#mn h2 {
+#mn p {
     font-size: 30px;
     text-align: center;
 }
@@ -164,9 +166,6 @@
         width: 100%;
     }
 
-    /* #mn #country{
-        font-size: 20px;
-    } */
 }
 
 /* #btnReset{
