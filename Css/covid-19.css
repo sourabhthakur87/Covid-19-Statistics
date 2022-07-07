@@ -238,6 +238,9 @@ body {
     transform: scale(1.2);
 }
 
+footer{
+    display: none;
+}
 
 footer .info1 {
     padding-top: 1px;
@@ -325,11 +328,11 @@ footer .fa-envelope {
         display: none;
     }
 
-    /* footer{
-        display: block;
-    } */
-
-    footer .info1{
+    footer{
         display: block;
     }
+
+    /* footer .info1{
+        display: block;
+    } */
 }
