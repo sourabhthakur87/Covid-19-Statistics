@@ -8,6 +8,7 @@ function getSelectValue() {
     console.log(selectValue)
     // return selectValue
     if (selectValue == "Global") {
+        loding();
         let APIData = (url) => {
             fetch(url).then((res) => {
                 return res.json();
@@ -56,6 +57,7 @@ function getSelectValue() {
         }
     }
     else {
+        loding();
         let APIData = (url) => {
             fetch(url).then((res) => {
                 return res.json();
@@ -123,4 +125,17 @@ function rst() {
 }
 
 
+function loding() {
+    setTimeout(disableloder, 1300);
+}
 
+function disableloder() {
+    var n = document.getElementsByClassName('circle');
+    for (let i = 0; i < n.length; i++) {
+        n[i].style.display = "none";
+    }
+    var m = document.getElementsByClassName('dv1');
+    for (let i = 0; i < m.length; i++) {
+        m[i].style.display = "block";
+    }
+}
