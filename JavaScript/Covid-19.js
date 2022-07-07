@@ -143,9 +143,8 @@ function disableloder() {
 
 // window.onscroll.document.getElementsByClassName('foter').onS
 
-window.onscroll=function scrl()
-{
-    if(document.documentElement.scrollTop >650) {
-        document.getElementById('ftr').style.display='block';
-    }
-}
+// window.onscroll = function scrl() {
+//     if (document.documentElement.scrollTop > 650) {
+//         document.getElementById('ftr').style.display = 'block';
+//     }
+// }
