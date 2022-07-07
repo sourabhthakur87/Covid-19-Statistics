@@ -88,7 +88,7 @@ function getSelectValue() {
             let pre6 = document.createElement("pre");
 
             console.log(tc);
-            pre1.innerHTML = `<span class="s1">${c}</span> <span class="s1">Situation: </span>`;
+            pre1.innerHTML = `<span class="s1">${c}</span>`;
             pre2.innerHTML = `<span class="s2">${tc}</span>`;
             pre3.innerHTML = `<span class="s3">${td}</span>`;
             pre4.innerHTML = `<span class="s4">${t}</span>`;
