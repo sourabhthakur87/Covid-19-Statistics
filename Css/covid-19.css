@@ -248,8 +248,8 @@ body {
 } */
 
 
-footer{
-    position: fixed; 
+footer {
+    position: fixed;
     top: 90%;
     /* margin-top: 40px; */
     /* width: 500px;
@@ -258,10 +258,11 @@ footer{
     display: none;
     border-radius: 10px;
     transition: 1s;
+    display: none;
 }
 
 
-footer .foter{
+footer .foter {
     margin-left: 20px;
 }
 
@@ -276,13 +277,15 @@ footer .foter{
 .foter .fa-github {
     color: black;
 }
-.foter .fa-arrow-up{
+
+.foter .fa-arrow-up {
     width: 100%;
     font-size: 60px;
     margin-left: 120px;
     color: black;
 }
-footer:hover{
+
+footer:hover {
     transform: translateY(-250px);
 }
 
