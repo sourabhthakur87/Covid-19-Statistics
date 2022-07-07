@@ -162,6 +162,10 @@
     #sec1 #mn #link{
         width: 100%;
     }
+
+    #mn h2{
+        font-size: 20px;
+    }
 }
 
 /* #btnReset{
