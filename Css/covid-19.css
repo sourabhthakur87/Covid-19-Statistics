@@ -110,6 +110,7 @@ body {
     text-align: center;
     margin-top: 30px;
     text-decoration: none;
+    margin-bottom: 100px;
 }
 
 #link a {
@@ -247,18 +248,21 @@ body {
 } */
 
 
-footer {
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
+footer{
+    position: fixed; 
+    top: 90%;
+    /* margin-top: 40px; */
+    /* width: 500px;
+    height: 100%; */
     background-color: rgb(175, 159, 189);
     display: none;
     border-radius: 10px;
+    transition: 1s;
 }
 
-footer .foter{
-margin-left: 20px;
 
+footer .foter{
+    margin-left: 20px;
 }
 
 .foter .fa-github,
@@ -271,6 +275,15 @@ margin-left: 20px;
 
 .foter .fa-github {
     color: black;
+}
+.foter .fa-arrow-up{
+    width: 100%;
+    font-size: 60px;
+    margin-left: 120px;
+    color: black;
+}
+footer:hover{
+    transform: translateY(-250px);
 }
 
 @media screen and (max-width:500px) {
@@ -303,7 +316,10 @@ margin-left: 20px;
     }
 
     #sec1 footer {
+        margin-top: 30px;
         display: block;
+        width: 350px;
+        height: 300px;
     }
 
 }
